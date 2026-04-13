@@ -15,6 +15,71 @@
     <meta name="twitter:title" content="Cure Point Clinical Laboratory & Collection Point - Mardan">
     <meta name="twitter:description" content="Cure Point Clinical Laboratory & Collection Point offers accurate and fast medical tests in Mardan. Book blood tests, hormone tests, and full body check-ups with home sampling. Your health, our priority.">
     <meta name="twitter:image" content="https://aftabpropertyva.github.io/cure-point-lab/thumbnail.jpg">
+    <!-- JSON-LD Schema Markup for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://aftabpropertyva.github.io/cure-point-lab/",
+      "name": "Cure Point Clinical Laboratory & Collection Point",
+      "image": "https://aftabpropertyva.github.io/cure-point-lab/thumbnail.jpg",
+      "description": "Cure Point Clinical Laboratory & Collection Point offers accurate and fast medical tests in Mardan. Book blood tests, hormone tests, and full body check-ups with home sampling.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shop # GH16 Ground Floor, Mardan City Center Opp to Mardan Medical Complex Main Nowshehra Road",
+        "addressLocality": "Mardan",
+        "addressRegion": "Khyber Pakhtunkhwa",
+        "postalCode": "23200",
+        "addressCountry": "PK"
+      },
+      "telephone": "+923147075547",
+      "url": "https://aftabpropertyva.github.io/cure-point-lab/",
+      "priceRange": "$",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mardan"
+      },
+      "sameAs": [
+        "https://www.facebook.com/curepoint",
+        "https://www.instagram.com/curepoint"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+923147075547",
+        "availableLanguage": ["en", "ur"]
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+      }
+    }
+    </script>
+    <!-- JSON-LD Schema for Medical Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Cure Point Clinical Laboratory & Collection Point",
+      "medicalSpecialty": ["Pathology", "Laboratory", "Diagnostics"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shop # GH16 Ground Floor, Mardan City Center Opp to Mardan Medical Complex Main Nowshehra Road",
+        "addressLocality": "Mardan",
+        "addressRegion": "Khyber Pakhtunkhwa",
+        "postalCode": "23200",
+        "addressCountry": "PK"
+      },
+      "telephone": "+923147075547"
+    }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
@@ -32,7 +97,7 @@
 <body class="bg-gray-50 text-gray-900">
 
     <!-- Header -->
-    <header class="sticky-header bg-white shadow-md">
+    <header class="sticky-header bg-white shadow-md" role="banner">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-2">
                 <div class="bg-blue-600 p-2 rounded-lg">
@@ -75,7 +140,7 @@
     </section>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-12 flex flex-col lg:flex-row gap-8">
+    <main class="container mx-auto px-4 py-12 flex flex-col lg:flex-row gap-8" role="main">
         
         <!-- Left Side: Tests & Filters -->
         <div class="flex-1">
@@ -150,7 +215,7 @@
     </main>
 
     <!-- Trust Section -->
-    <section class="bg-white py-16" id="about">
+    <section class="bg-white py-16" id="about" aria-label="Why Choose Cure Point">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12">Why Choose Cure Point?</h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -187,7 +252,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12" id="contact">
+    <footer class="bg-gray-900 text-white py-12" id="contact" role="contentinfo">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
                 <div>
